@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser-Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Person of Interest</h1>
+    </header>
+    <main>
+      <span class="success-msg"></span>
+      <section>
+        <form action="" method="post" novalidate>
+          <div class="form-row">
+            <label for="uemail">Email Address:</label>
+            <input type="email" name="uemail" id="uemail" required />
+            <span class="msg" id="email-err"></span>
+          </div>
+          <div class="form-row">
+            <label for="ucountry">Country</label>
+            <select name="ucountry" id="ucountry" required></select>
+            <span class="msg" id="country-err"></span>
+          </div>
+          <div class="form-row">
+            <label for="uzip">Zip Code</label>
+            <input type="text" name="uzip" id="uzip" />
+            <span class="msg" id="zip-err"></span>
+          </div>
+          <div class="form-row">
+            <label for="upwd">Password</label>
+            <input type="text" name="upwd" id="upwd" />
+            <span class="msg" id="pwd-err"></span>
+          </div>
+          <div class="form-row">
+            <label for="upwd2">Confirm Password</label>
+            <input type="text" name="upwd2" id="upwd2" />
+            <span class="msg" id="pwd2-err"></span>
+          </div>
+          <div class="submit-btn">
+            <button type="submit">Confirm Person</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>Dev by M_Idi</footer>
+    <script src="bundle.js"></script>
+  </body>
+</html>
