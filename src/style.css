@@ -74,10 +74,7 @@ form {
   color: rgb(149, 7, 19);
   font-size: 1.1rem;
 }
-.form-row,
-.submit-btn {
-  /* border: 1px solid yellow; */
-}
+
 .form-row {
   width: 70%;
   display: flex;
